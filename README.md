@@ -11,12 +11,11 @@ This repository contains a Java command-line application that performs various b
 BitManipulation/
 ├── bin/
 │ ├── Bitmanipulation.class
-│ ├── NumberConverter.class
-│ └── mysql-connector-java-8.0.28.jar # (if unused, consider removing)
-├── lib/
-│ └── mysql-connector-java-8.0.28.jar # (likely misplaced—consider removing)
+│ └── NumberConverter.class
+├── lib/(empty)
 ├── src/
 │ ├── Bitmanipulation.java
+│ ├── Bitmanipulation.class
 │ └── NumberConverter.java
 └── README.md
 ```
