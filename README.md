@@ -1,18 +1,59 @@
-## Getting Started
+# Bit Manipulation in Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java project demonstrating common bit-level operations and conversions (e.g. swapping bits, counting set bits, converting numbers) using custom logic.
 
-## Folder Structure
+## 🧾 Overview
 
-The workspace contains two folders by default, where:
+This repository contains a Java command-line application that performs various bit manipulation tasks, showcasing practical examples of how bit-level operations work.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📁 Project Structure
+```plaintext
+BitManipulation/
+├── bin/
+│ ├── Bitmanipulation.class
+│ ├── NumberConverter.class
+│ └── mysql-connector-java-8.0.28.jar # (if unused, consider removing)
+├── lib/
+│ └── mysql-connector-java-8.0.28.jar # (likely misplaced—consider removing)
+├── src/
+│ ├── Bitmanipulation.java
+│ └── NumberConverter.java
+└── README.md
+```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 💡 Features
 
-## Dependency Management
+- Performs various bit operations:
+  - Counting set bits (`popcount`)
+  - Swapping bits in defined positions
+  - Bit-shifting and masking
+  - Converting integers to binary representation and vice versa
+- Console-based input/output for demonstration
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🛠️ Requirements
+
+- Java Development Kit (JDK 8 or higher)
+- Compatible terminal or IDE (IntelliJ IDEA, Eclipse, VS Code, etc.)
+
+## ▶️ Compile and Run
+
+From the project root:
+
+### Compile
+
+```bash
+javac -d bin src/*.java
+java -cp bin Bitmanipulation
+```
+
+## 📜 License
+This project is licensed under the MIT License.
+
+## 👨‍💻 Developed By
+
+**Imran Ashraf**  
+📧 Email: [imranashraf0k@gmail.com](mailto:imranashraf0k@gmail.com)  
+🔗 GitHub: [imranashrafai](https://github.com/imranashrafai)  
+🔗 LinkedIn: [imranashrafai](https://www.linkedin.com/in/imranashrafai)
+
